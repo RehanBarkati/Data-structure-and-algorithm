@@ -102,10 +102,10 @@ int main(){
     p->left=p1;
     p->right=p2;
     p1->left=p3;
-    p1->right=p4;
    // inorder(p);
    insert(p,3);
-     printf("%d",p->left->right->data);
-     //inorder(p);
+    p1->right->right=p4;
+     printf("%d\n",p->left->right->data);
+     inorder(p);
     return 0;
 }

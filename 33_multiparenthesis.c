@@ -67,7 +67,7 @@ int parenthesisMatch(char *exp){
           push(p,exp[i]);
       }
       else if(exp[i]==')' || exp[i]=='}' || exp[i]==']'){
-               if(isEmpty(p)){
+                 if(isEmpty(p)){
                   return 0;
                }   
                  popped_ch=  pop(p);
