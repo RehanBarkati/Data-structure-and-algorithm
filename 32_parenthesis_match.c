@@ -43,7 +43,7 @@ void push(struct stack *ptr,char value){
  }
 
 int parenthesisMatch(char *exp){
-    //Create an initialize the stack
+    //Create and initialize the stack
     struct stack *p;
     p->size=100;
     p->top=-1;

@@ -41,7 +41,7 @@ int dequeue(){
         printf("Queue is empty\n");
     }
     else{
-        f=f->next;
+        f=f->next; 
         val=ptr->data;
         free(ptr);
         }
